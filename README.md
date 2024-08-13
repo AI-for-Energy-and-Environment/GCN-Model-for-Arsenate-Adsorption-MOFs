@@ -21,6 +21,8 @@ Feature engineering
 Basic parameters of the model
 ### Running:
 Model Run
+### Visualization:
+Vis the data
 
 ## package:
 ### requirement.txt
