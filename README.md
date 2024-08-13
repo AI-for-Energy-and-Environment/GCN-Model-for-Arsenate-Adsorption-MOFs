@@ -21,3 +21,7 @@ Feature engineering
 Basic parameters of the model
 ### Running:
 Model Run
+
+## package:
+### requirement.txt
+Use pip install -r requirements.txt to configure the environment 
