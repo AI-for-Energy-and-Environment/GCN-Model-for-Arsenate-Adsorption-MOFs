@@ -13,9 +13,9 @@ Model construction
 ## Code files:
 ### Config:
 Basic model parameters, defining features
-### Fataloader:
-Building a molecular diagram
-### Feateng:
+### Loader:
+Building a molecular graph
+### Eng:
 Feature engineering
 ### Basic:
 Basic parameters of the model
