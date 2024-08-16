@@ -39,8 +39,8 @@ library(ggplot2)
 library(ggExtra)
 
 
-p <- ggplot(df1, aes(x = exp, y = pre, fill = set)) +  # 修改这里将color改为fill
-  geom_point(shape = 21, size = 6, alpha = 0.7, stroke = 1, color = "black") +  # 增加了color参数
+p <- ggplot(df1, aes(x = exp, y = pre, fill = set)) + 
+  geom_point(shape = 21, size = 6, alpha = 0.7, stroke = 1, color = "black") + 
   geom_abline(slope = 1, intercept = 0, size =1.5, linetype = "dashed", color = "black") +
   scale_y_continuous(limits = c(-10, 600)) +
   scale_x_continuous(limits = c(-10, 600)) +
@@ -73,7 +73,6 @@ hist_y <- ggplot(df1, aes(x = pre, fill = set)) +
   geom_histogram(bins = 30) + 
   scale_fill_manual(values = c("#084384", "#77cac5"))
 
-# 使用 gridExtra 组合图形
 ggMarginal(p, hist_x, hist_y, ncol = 2, nrow = 2)
 
 
