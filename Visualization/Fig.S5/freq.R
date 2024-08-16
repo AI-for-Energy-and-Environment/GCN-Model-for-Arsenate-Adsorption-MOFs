@@ -1,7 +1,7 @@
 library(ggplot2)
 library(RColorBrewer)
 
-data <- read.csv("Absorb0.csv")
+data <- read.csv("metadata.csv")
 
 gnbu_colors <- brewer.pal(9, "GnBu")[4:9]
 
