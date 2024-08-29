@@ -1,6 +1,6 @@
 # GCN-Model-for-Arsenate-Adsorption-MOFs
 
-## This data and scripts are the work for:
+## This repository contains the data and scripts involved in the publication:
 [Rapidly tailor metal-organic frameworks for arsenate removal using graph convolutional neural networks](https://www.sciencedirect.com/science/article/pii/S1383586624030739?dgcid=coauthor)
 <div align="center">
   <img src="https://github.com/lzhzzzzwill/GCN-Model-for-Arsenate-Adsorption-MOFs/blob/main/dataset/TOCG.png">
